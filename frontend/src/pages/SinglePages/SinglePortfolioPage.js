@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from '../../components/Menus/NavBar';
 
 const SinglePortfolioPage = (props) => {
     return (
         <div>
-            Hello SinglePortfolioPage
+           <NavBar/>
         </div>
     );
 };

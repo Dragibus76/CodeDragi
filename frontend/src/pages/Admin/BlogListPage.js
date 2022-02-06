@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from '../../components/Menus/NavBar';
 
 const BlogListPage = (props) => {
     return (
         <div>
-            Hello BlogListPage
+            <NavBar/>
         </div>
     );
 };

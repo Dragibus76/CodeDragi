@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from '../../components/Menus/NavBar';
 
 const DashBoardPage = (props) => {
     return (
         <div>
-            Hello DashBoardPage
+            <NavBar/>
         </div>
     );
 };

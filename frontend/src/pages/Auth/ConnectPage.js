@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from '../../components/Menus/NavBar';
 
 const ConnectPage = () => {
     return (
         <div>
-            Hello ConnectPage
+            <NavBar/>
         </div>
     );
 };

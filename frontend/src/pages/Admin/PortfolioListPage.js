@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from '../../components/Menus/NavBar';
 
 const PortfolioListPage = (props) => {
     return (
         <div>
-            Hello PortfolioListPage
+            <NavBar/>
         </div>
     );
 };

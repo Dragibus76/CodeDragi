@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from '../../components/Menus/NavBar';
 
 const ProfilPage = (props) => {
     return (
         <div>
-            Hello ProfilPage
+            <NavBar/>
         </div>
     );
 };

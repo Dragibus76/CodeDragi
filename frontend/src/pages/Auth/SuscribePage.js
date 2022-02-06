@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from '../../components/Menus/NavBar';
 
 const SuscribePage = (props) => {
     return (
         <div>
-            <h1>Hello SuscribePage</h1>
+            <NavBar/>
         </div>
     );
 };

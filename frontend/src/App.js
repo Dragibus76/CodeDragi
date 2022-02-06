@@ -17,10 +17,20 @@ import PostBlogPage from "./pages/Admin/PostBlogPage";
 import UserListPage from "./pages/Admin/UserListPage";
 import PortfolioListPage from "./pages/Admin/PortfolioListPage";
 import BlogListPage from "./pages/Admin/BlogListPage";
+import { Container } from "@mui/material";
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles((theme) => ({
+  Container: {
+    paddingTop: 100,
+  },
+}));
 
 function App() {
+  const classes = useStyles();
   return (
     <div className="App">
+      <Container className={classes.Container}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -42,6 +52,7 @@ function App() {
           <Route path="/dashboard/list/blog" element={<BlogListPage />} />
         </Routes>
       </BrowserRouter>
+      </Container>
     </div>
   );
 }
