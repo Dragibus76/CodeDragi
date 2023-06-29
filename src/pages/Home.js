@@ -1,3 +1,5 @@
+import styles from './Home.module.css';
+import Entete from '../components/Entete/Entete';;
 
 
 
@@ -5,9 +7,6 @@
 
 export default function Home() {
     return (
-        <main>
-
-            <p>je suis la page d'accueil</p>
-        </main>
+       <Entete/>
     )
 }

@@ -1,0 +1,73 @@
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: center;
+}
+
+.Entete h3,span {
+    color: var(--Gold);
+}
+
+.Title {
+    font-size: 3rem;
+}
+.Entete {
+    width: 50%;
+    display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  flex-wrap: wrap;
+  position: absolute;
+  margin: 20rem 0;
+  
+}
+
+.Entete button {
+ background: var(--Gold);
+ margin: 10px 0;
+ padding: 5px;
+ color: var(--Black);
+ position: absolute;
+ z-index: 5;
+ border: none;
+}
+
+.PinkForm {
+    background: var(--Pink);
+    width: 5rem;
+    height: 2rem;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+    border: none;
+}
+.PurpleForm {
+    width: 20rem;
+    height: 5rem;
+    background: var(--Purple);
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 11rem;
+    z-index: -5;
+}
+.ModelPhoto1 {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    
+    
+}
+
+.ModelPhoto1 img {
+    width: 50%;
+    margin: 0 40rem;
+}
